@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <link rel="stylesheet" href="../styles/styles.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <!--FONTS-->
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">     
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rouge+Script&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rouge+Script&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+         <header>
+            <div class="menu">
+                <section id="cont-flex-sup" class="flex-supbv">
+                    <a href="../index.html">  <img src="../images/MrLogo1.jpeg" alt="MenuLogo" width="250" height="200"></a>
+                    <nav class="navbarbv">
+                        <ul>
+                            <li><a href="../pages/productos.html" class="linkSinSubrayado"> <h2>PRODUCTOS</h2> </a> </li>
+                            <li><a href="../pages/recetas.html" class="linkSinSubrayado"><h2>RECETAS</h2> </a> </li>
+                            <li><a href="../pages/historia.html" class="linkSinSubrayado"><h2>NOSOTROS</h2> </a> </li>
+                            <li><a href="../pages/comunidad.html" class="linkSinSubrayado"><h2>COMUNIDAD</h2> </a> </li>
+                            <li><a href="#" class="linkSinSubrayado"><h2>TIENDA (proximamente)</h2> </a> </li>
+                        </ul>
+                    </nav>
+                 </section>
+                 <p id="topLine"></p>
+            </div>   
+        </header>
+        <main>
+            <div id="comunidad-container" class="comunidad-container">
+                <h4 id="tituloComunidad" class="tituloh4">Si querés ser parte de nuestra comunidad, completá el siguiente <b>formulario</b>:</h3>
+                <div id="formDiv"> 
+                    <form>
+                        <section id="datosbasicos">
+                            <label id="lblNombre" for="nombre"><u>Nombre</u>:</label>
+                            <input type="text" name="" id="nombre">
+                            <label id="lblApellido" for="apellido"><u>Apellido</u>:</label>
+                            <input type="text" name="" id="apellido">
+                        </section>
+                        <section id="datoscomplementarios1">
+                            <label id="lblFechNac" for="fechNac"><u>Fecha de Nacimento</u>:</label>
+                            <input type="date" name="" id="fechNac">
+                            <label id="lblPais" for="pais">País de origen:</label>
+                            <select name="" id="ddPais">
+                                <option value="AR">Argentina</option>
+                                <option value="BR">Brasil</option>
+                                <option value="CH">Chile</option>
+                                <option value="PAR">Paraguay</option>
+                                <option value="UR">Uruguay</option>
+                            </select>
+                            <label for="genero"><u>Género</u>:</label>
+                            <select name="" id="">
+                                <option value="H">Hombre</option>
+                                <option value="M">Mujer</option>
+                                <option value="NB">No Binario</option>
+                            </select>
+                        </section>
+                        <section id="datoscomplementarios2">
+                            <label for="email"><u>Correo electrónico</u>:</label>
+                            <input type="text" name="" id="email">
+                            <label for="recibirNews"><u>Deseo recibir Noticias y Spam</u></label>
+                            <input type="radio" name="noticiasSi" id="">
+                        </section>        
+                        <section id="datoscomplementarios3">
+                            <label id="lblMensaje" for="mensaje"><u>Cuéntanos porque quieres ser parte</u>:</label>
+                            <textarea name="mensaje" id="mensaje"></textarea>
+                        </section>
+                    </form>
+                   <button id="btnEnviar">Enviar Datos !</button>
+                </div>
+               <!---<div class="nuevo-form">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Nombre:</span>
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                        <span class="input-group-text">Apellido:</span>
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Fecha de Nac.:</span>
+                        <input type="text" class="form-control" placeholder="dd/mm/aaaa" aria-label="FechaNac">
+                        <span class="input-group-text">Email:</span>
+                        <input type="text" class="form-control" placeholder="email" aria-label="Eamil">
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Argentina</a></li>
+                                <li><a class="dropdown-item" href="#">Brasil action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                         </div>
+                    </div>
+                </div> --->
+            </div>
+        </main>
+        <footer> 
+            <p class="footerLine">-</p>        
+            <div class="footlogocont">
+                 <a href="">  <img class="footlogo" src="../images/MrFooter.png" alt="footlogo" width="100" height="80"></a> 
+            </div>
+            <div class="footer-container">
+                <p>Hablá con nosotros al 0800-999-SALSA (72572)</p>
+                <p>Para más información, seguinos en nuestras redes:</p>
+                    <div class="enlaces-container">
+                        <a href="https://www.facebook.com/" target="blank">  <img src="../images/FBLogo.png" alt="FacebookLogo"/></a>
+                        <a href="https://www.instagram.com/" target="blank"> <img src="../images/IGLogo.png" alt="InstagramLogo"></a>
+                        <a href="https://x.com/" target="blank"> <img src="../images/XLogo.png" alt="TwitterLogo"></a>
+                    </div>               
+            </div>           
+        </footer>
+    </body>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</html>
