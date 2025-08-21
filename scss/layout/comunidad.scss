@@ -1,0 +1,81 @@
+
+/*Page Comunidad Main Style ------------------------------*/
+
+.comunidad-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.tituloh4{
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 20px;
+  
+  margin-top: 9rem;
+  margin-bottom: 2rem;
+}
+
+div #formDiv{
+  width: 15rem;
+  font-family: nunito;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  }
+
+form {
+margin-left: 0rem;
+margin-bottom: 1rem;
+width: 100%;
+background-color:$colorFondoForm;
+padding: 1rem;
+border: $colorFondoFooter 3px dashed;
+border-radius: 20px;
+margin-bottom: 1rem;
+
+}
+
+
+#btnEnviar {
+  margin: 1rem;
+  background:$colorFondoFooter;
+  color:#1AAB8A;
+  border:none;
+  position:relative;
+  height:3rem;
+  font-size: 18pt;
+  font-family: nunito;
+  padding: 1 2rem;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  border-radius: 5px;
+  
+}
+#btnEnviar:hover{
+  background:#1AAB8A;
+  color:$colorFondoFooter;
+}
+#btnEnviar:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: $colorFondoFooter;
+  transition:400ms ease all;
+}
+#btnEnviar:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+#btnEnviarn:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+

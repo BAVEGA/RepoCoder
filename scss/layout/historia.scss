@@ -1,0 +1,89 @@
+
+
+/*Page Historia Main Style ------------------------------*/
+
+#tituloHistoriaDiv{
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+
+div #contenidoDiv{
+  width: 95%;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border:  0.5rem double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  background-color:$colorClaroParrafo;
+  
+}
+
+div #contenidoDiv p{
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#tituloPlantaDiv{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: $colorClaroParrafo;
+    border:  0.5rem double, $colorFondoFooter;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+#tituloPlantaDiv{
+  position: relative;
+  border: 2px, double, (--colorfoncoldoFooter);
+  width: 95%;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  
+  }
+
+
+
+.planta-container{
+  
+  display:  flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  display: none;
+}
+
+
+div #plantaDiv p{
+  font-family: nunito;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 1rem;
+  position: top;
+ }
+
+
+ .links-container{
+  display:  flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+ }
+
+ .links-container p {
+  font-family: nunito;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 1rem;
+  position: top;
+  }

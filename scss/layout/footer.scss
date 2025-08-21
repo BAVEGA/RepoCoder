@@ -1,0 +1,67 @@
+/* Footer Style ------------------------------*/
+
+footer{
+  background-color: $colorFondoFooter;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+  
+  }
+
+.footerLine{
+  border-style: ridge;
+  border-color: $colorFondoMain;
+  height: 8px;
+  }
+
+  .footlogocont{
+  margin: 2rem;
+  width: 10rem;
+  height: 6rem;
+  background-color: #1AAB8A;
+ 
+}
+
+.footlogo{
+  width: 100%;
+  height: 100%;
+  }
+
+.footer-container{
+  @extend %flexBasico;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-container{
+  margin-left: 1rem;
+  background-color: $colorFondoFooter;
+  width: 70%;
+  
+
+ }
+
+.footer-container p{
+  font-family: "Tinos", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #f7edd6;
+}
+
+.enlaces-container{
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+
+}
+  
+
+.enlaces-container img{
+  height: 3rem;
+  width: 3rem;
+     
+}

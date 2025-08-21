@@ -1,0 +1,73 @@
+
+/* Page Products Main ------------------------------*/
+
+.lista-prod-flex{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.producto-container{
+  display: flex;
+  width: 90%;
+  }
+
+.articulo {
+  display: flex;
+  flex-direction: column;
+  background-color: $colorFondoForm;
+  border: 2px, dotted, #444;
+  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1rem;
+    
+  }
+
+
+.producto-container h4{
+   margin-top: 0.5rem;
+   padding-left: 1rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 400;
+   font-size: 2vh;
+   
+}
+
+.producto-desc{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  
+}
+
+.producto-desc img{
+  width: 5rem;
+  height: 5rem;
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+  border-color: #131313;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.producto-desc p {
+  width: 85%;
+  padding: 1rem;
+  font-family: nunito;
+  font-weight: 500;
+  font-size: 11px;
+  height: auto;
+  background-color:$colorClaroParrafo;
+  
+}
+
+
+div #tituloProductos {
+   font-family: nunito;
+}
+

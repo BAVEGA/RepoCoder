@@ -1,0 +1,6 @@
+@mixin fondoContainer($ancho,$alto,$bgColor){
+width: $alto ;
+height: $alto;
+background-color: $bgColor;
+}
+
